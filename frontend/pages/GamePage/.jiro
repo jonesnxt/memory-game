@@ -1,0 +1,9 @@
+{
+	"page": {
+		"name": "Game",
+        "route": "/",
+
+        "config": {},
+        "configEditor": []
+	}
+}
