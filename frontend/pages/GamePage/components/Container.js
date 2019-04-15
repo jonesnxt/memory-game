@@ -5,7 +5,7 @@ const Wrapper = styled.div`
 	width: 100%;
 	height: 100vh;
 	background-color: ${({ theme }) => theme.style.backgroundColor};
-    ${({ theme }) => theme.strings.backgroundImage && `background-image: url('${theme.strings.backgroundImage}'); background-size: cover;`}
+    ${({ theme }) => theme.images.backgroundImage && `background-image: url('${theme.images.backgroundImage}'); background-size: cover;`}
 	padding: 12px 24px;
 `;
 

@@ -5,13 +5,16 @@ const { Store } = new Jiro();
 export default async (req, res) => {
     console.log('Saving data...');
     console.log(req.body.score);
-    let nscores = [];
 
-    await Store.arrayPush('scores', 'master', {
-        scores: req.body.score,
+    let scores = (await Store.get('scores', 'master'));
+    if(!scores) scores = [];
+    else scores = scores.scores;
+
+    scores.push(req.body.score);
+
+    await Store.set('scores', 'master', {
+        scores,
     });
-
-    const { scores } = await Store.get('scores', 'master');
-
+    
     res.status(200).json({ scores });
 }

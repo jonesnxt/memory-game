@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "title": "Gem Match",
-    "description": "An easily extendable matching game. Customize it to be whatever you want with Koji.",
-    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/0283d382-0feb-4d6b-86f6-69ec2817d857/dc9v7iu-3677d383-767e-48e7-b3cc-6f1b7f8ad609.png",
-    "icon": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/0283d382-0feb-4d6b-86f6-69ec2817d857/dc2fouk-ed449fbb-8fd5-49d9-9ea3-e445fea08148.png/v1/fill/w_894,h_894,strp/bejeweled_orange_gem_by_ldinos_dc2fouk-pre.png",
+    "title": "Memory Game",
+    "description": "A classic game to test your memory. Flip two cards at a time and remember the cards you've seen before.",
+    "image": "https://images.koji-cdn.com/891bf871-9e3f-4119-aba4-3f1d690c6c38/memorygamewide.png",
+    "icon": "https://images.koji-cdn.com/891bf871-9e3f-4119-aba4-3f1d690c6c38/thinking.png",
     "gaCode": ""
   },
   "@@editor": [

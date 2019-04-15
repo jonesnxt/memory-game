@@ -18,8 +18,8 @@ const IconWrapper = styled.div`
 `;
 
 const IconImage = styled.img`
-    width: 24px;
-    height: 24px;
+    width: 42px;
+    height: 42px;
 `;
 
 const HoverOverlay = styled.div`

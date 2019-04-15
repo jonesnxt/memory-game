@@ -49,11 +49,11 @@ class HomePage extends React.Component {
         }
 
         // Create two items for each match
-        const cards = Object.keys(this.context.strings)
+        const cards = Object.keys(this.context.images)
             .filter(key => key.startsWith('match'))
             .reduce((acc, key) => {
                 const card = {
-                    item: this.context.strings[key],
+                    item: this.context.images[key],
                     state: 'hidden',
                 };
 
@@ -185,7 +185,7 @@ class HomePage extends React.Component {
 
 		return (
             <Container>
-                <Title>{this.context.strings.title}</Title>
+                <Title>{this.context.metadata.title}</Title>
 
                 <Toolbar>
                     <Time>{(moves > 0) ? formatTime(elapsedTime) : 'Click a tile to start'}</Time>

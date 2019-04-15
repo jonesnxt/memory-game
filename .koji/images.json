@@ -1,0 +1,72 @@
+{
+  "images": {
+    "match1": "https://image.flaticon.com/icons/svg/511/511121.svg",
+    "match2": "https://image.flaticon.com/icons/svg/511/511122.svg",
+    "match3": "https://image.flaticon.com/icons/svg/511/511123.svg",
+    "match4": "https://image.flaticon.com/icons/svg/511/511124.svg",
+    "match5": "https://image.flaticon.com/icons/svg/511/511125.svg",
+    "match6": "https://image.flaticon.com/icons/svg/511/511126.svg",
+    "match7": "https://image.flaticon.com/icons/svg/511/511127.svg",
+    "match8": "https://image.flaticon.com/icons/svg/511/511128.svg",
+    "backgroundImage": "https://i.pinimg.com/originals/47/5a/e0/475ae0b97efeeec4729b3de107f88918.jpg"
+  },
+  "@@editor": [
+    {
+      "key": "images",
+      "name": "Images",
+      "icon": "🖼",
+      "source": "images.json",
+      "fields": [
+        {
+          "key": "backgroundImage",
+          "name": "Background Image",
+          "description": "URL of Image to place as background",
+          "type": "image",
+          "typeOptions": {
+            "fit": "cover"
+          }
+        },
+        {
+          "name": "Symbol 1",
+          "key": "match1",
+          "type": "image"
+        },
+        {
+          "name": "Symbol 2",
+          "key": "match2",
+          "type": "image"
+        },
+        {
+          "name": "Symbol 3",
+          "key": "match3",
+          "type": "image"
+        },
+        {
+          "name": "Symbol 4",
+          "key": "match4",
+          "type": "image"
+        },
+        {
+          "name": "Symbol 5",
+          "key": "match5",
+          "type": "image"
+        },
+        {
+          "name": "Symbol 6",
+          "key": "match6",
+          "type": "image"
+        },
+        {
+          "name": "Symbol 7",
+          "key": "match7",
+          "type": "image"
+        },
+        {
+          "name": "Symbol 8",
+          "key": "match8",
+          "type": "image"
+        }
+      ]
+    }
+  ]
+}
