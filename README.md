@@ -16,4 +16,4 @@ When you're ready, [deploy your project](#~/.koji/deploy.json!visual) and share 
 You can find the code for the main game board [here](#~/frontend/pages/GamePage/index.js).
 
 ## Support and suggestions
-Please feel free to contact me if you have any suggestions!
+Please feel free to [contact me](https://gokoji.com/profile/jones) if you have any suggestions!
