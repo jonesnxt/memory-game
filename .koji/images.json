@@ -1,13 +1,13 @@
 {
   "images": {
-    "match1": "https://image.flaticon.com/icons/svg/511/511121.svg",
-    "match2": "https://image.flaticon.com/icons/svg/511/511122.svg",
-    "match3": "https://image.flaticon.com/icons/svg/511/511123.svg",
-    "match4": "https://image.flaticon.com/icons/svg/511/511124.svg",
-    "match5": "https://image.flaticon.com/icons/svg/511/511125.svg",
-    "match6": "https://image.flaticon.com/icons/svg/511/511126.svg",
-    "match7": "https://image.flaticon.com/icons/svg/511/511127.svg",
-    "match8": "https://image.flaticon.com/icons/svg/511/511128.svg",
+    "match1": "https://images.koji-cdn.com/891bf871-9e3f-4119-aba4-3f1d690c6c38/thinking2.png",
+    "match2": "https://images.koji-cdn.com/891bf871-9e3f-4119-aba4-3f1d690c6c38/recycling.png",
+    "match3": "https://images.koji-cdn.com/891bf871-9e3f-4119-aba4-3f1d690c6c38/traffic-light.png",
+    "match4": "https://images.koji-cdn.com/891bf871-9e3f-4119-aba4-3f1d690c6c38/snowflake.png",
+    "match5": "https://images.koji-cdn.com/891bf871-9e3f-4119-aba4-3f1d690c6c38/flag.png",
+    "match6": "https://images.koji-cdn.com/891bf871-9e3f-4119-aba4-3f1d690c6c38/lightning.png",
+    "match7": "https://images.koji-cdn.com/891bf871-9e3f-4119-aba4-3f1d690c6c38/explosion.png",
+    "match8": "https://images.koji-cdn.com/891bf871-9e3f-4119-aba4-3f1d690c6c38/rhombus.png",
     "backgroundImage": "https://i.pinimg.com/originals/47/5a/e0/475ae0b97efeeec4729b3de107f88918.jpg"
   },
   "@@editor": [

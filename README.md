@@ -1,4 +1,4 @@
-![Memory Game](https://i.imgur.com/sMBJup4.png)
+# Memory Game
 
 *A classic game to test your memory. Flip two cards at a time and remember the cards you've seen before.*
 
