@@ -18,4 +18,4 @@ You can find the code for the main game board [here](#~/frontend/pages/GamePage/
 ## Support and suggestions
 Please feel free to [contact me](https://gokoji.com/profile/jones) if you have any suggestions!
 
-Have fun!
+*Have fun!*
