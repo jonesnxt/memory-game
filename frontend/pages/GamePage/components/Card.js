@@ -18,8 +18,8 @@ const IconWrapper = styled.div`
 `;
 
 const IconImage = styled.img`
-    width: 42px;
-    height: 42px;
+    width: ${({ boxSize }) => boxSize}px;
+    padding: 4px;
 `;
 
 const HoverOverlay = styled.div`
@@ -41,8 +41,10 @@ const Container = styled.div`
     align-items: center;
     justify-content: center;
 
+    width: ${({ boxSize }) => boxSize}px;
+    height: ${({ boxSize }) => boxSize}px;
     width: 100%;
-    height: 70px;
+    height: 100%;
     position: relative;
     border-radius: 5px;
     font-size: 24px;
@@ -68,16 +70,17 @@ const Container = styled.div`
     }
 `;
 
-const Card = ({ isFlipped, isFound, canClick, onClick, item }) => {
+const Card = ({ isFlipped, isFound, canClick, onClick, item, boxSize }) => {
     return (
         <Container
+            boxSize={boxSize}
             isFlipped={isFlipped}
             isFound={isFound}
             canClick={canClick}
             onClick={() => canClick && onClick()}
         >
             <IconWrapper isVisible={isFlipped || isFound}>
-                {isImage(item) ? <IconImage src={item} /> : item}
+                {isImage(item) ? <IconImage boxSize={boxSize} src={item} /> : item}
             </IconWrapper>
             <HoverOverlay />
         </Container>

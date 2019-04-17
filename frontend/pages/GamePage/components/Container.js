@@ -14,7 +14,6 @@ const Inner = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-	max-width: 300px;
     width: 100%;
 `;
 

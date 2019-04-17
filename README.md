@@ -3,7 +3,7 @@
 *A classic game to test your memory. Flip two cards at a time and remember the cards you've seen before.*
 
 ## Things to customize
-- 💎 Replace all the images with your own
+- 🐮 Replace all the images with your own
     * [Open configuration](#~/.koji/images.json!visual)
 - 💅 Change the background and colors of the cards
     * [Open configuration](#~/.koji/style.json!visual)

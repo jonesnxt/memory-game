@@ -6,7 +6,10 @@ const CardContainer = styled.div`
     grid-auto-rows: 1fr;
     grid-column-gap: 6px;
     grid-row-gap: 6px;
+    justify-items: center;
+    align-items: center;
     width: 100%;
+    height: calc(100vh - 170px);
 `;
 
 export default CardContainer;

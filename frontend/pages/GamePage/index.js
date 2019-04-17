@@ -30,6 +30,7 @@ class HomePage extends React.Component {
             moves: 0, // The number of moves the user has made
             score: 0, // A calculation of time and moves that is used for leaderboards
             highScores: [], // only exists at end of game when loaded, reset on new game
+            boxSize: 40, // set in componentDidMount, gets the client screensize and adjusts
         };
 
         this.elapsedTimeInterval = null;
@@ -37,6 +38,9 @@ class HomePage extends React.Component {
 
     componentDidMount() {
         // Setup the board when we first load the game
+        console.log(this.cardContainerRef.clientHeight);
+        let boxSize = (Math.min(this.cardContainerRef.clientWidth, this.cardContainerRef.clientHeight) / 4) - 6;
+        this.setState({ boxSize });
         this.setupBoard();
     }
 
@@ -102,6 +106,11 @@ class HomePage extends React.Component {
         // wait until the timer flips them back over so we can't
         // see more than two cards at once
         if (this.state.resetTimer) {
+            return;
+        }
+
+        // if the card is already matched, don't do anything
+        if (this.state.cards[i].cardState === 'found') {
             return;
         }
 
@@ -193,11 +202,12 @@ class HomePage extends React.Component {
                     {moves > 0 && <Moves>{moves} moves</Moves>}
                 </Toolbar>
 
-                <CardContainer>
+                <CardContainer ref={(ref) => this.cardContainerRef = ref}>
                     {this.state.cards.map(({ item, cardState }, i) => (
                         <Card
                             key={i}
                             item={item}
+                            boxSize={this.state.boxSize}
                             isFlipped={currentCardIndex === i || cardState === 'visible'}
                             isFound={cardState === 'found'}
                             canClick={this.state.resetTimer === null}
